@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Demo Sources/SimpleURLConnections/SimpleURLConnections.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Demo Sources/iPhoneCoreDataRecipes/Recipes.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Demo Sources/MultipleDetailViews/MultipleDetailViews.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Demo Sources/Zeus.JSONParserApp/XCode Project/ZeusJSONParserApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Demo Sources/TransWeb/TransWeb.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Demo Sources/BizAppTutorial/DescartesMobileApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:AMSOcean.CustomsQuery/AMSOcean.xcodeproj">
+   </FileRef>
+</Workspace>

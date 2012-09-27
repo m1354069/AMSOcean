@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F9C72261580511700515297 /* iPhoneIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9C72251580511700515297 /* iPhoneIcon.png */; };
+		1F9C72291580511900515297 /* iPhoneIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9C72281580511900515297 /* iPhoneIcon@2x.png */; };
+		1F9C722B1580511E00515297 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9C722A1580511E00515297 /* Default.png */; };
+		1F9C722D1580512200515297 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9C722C1580512200515297 /* Default@2x.png */; };
+		939B366015758192005C258C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939B365F15758192005C258C /* UIKit.framework */; };
+		939B366215758192005C258C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939B366115758192005C258C /* Foundation.framework */; };
+		939B366415758192005C258C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939B366315758192005C258C /* CoreGraphics.framework */; };
+		939B366A15758192005C258C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 939B366815758192005C258C /* InfoPlist.strings */; };
+		939B366C15758192005C258C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 939B366B15758192005C258C /* main.m */; };
+		939B367015758192005C258C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 939B366F15758192005C258C /* AppDelegate.m */; };
+		939B367315758192005C258C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 939B367215758192005C258C /* ViewController.m */; };
+		939B367615758192005C258C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 939B367415758192005C258C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F9C72251580511700515297 /* iPhoneIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon.png; sourceTree = "<group>"; };
+		1F9C72281580511900515297 /* iPhoneIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneIcon@2x.png"; sourceTree = "<group>"; };
+		1F9C722A1580511E00515297 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1F9C722C1580512200515297 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		939B365B15758192005C258C /* ZeusFormTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeusFormTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		939B365F15758192005C258C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		939B366115758192005C258C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		939B366315758192005C258C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		939B366715758192005C258C /* ZeusFormTemplate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZeusFormTemplate-Info.plist"; sourceTree = "<group>"; };
+		939B366915758192005C258C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		939B366B15758192005C258C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		939B366D15758192005C258C /* ZeusFormTemplate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZeusFormTemplate-Prefix.pch"; sourceTree = "<group>"; };
+		939B366E15758192005C258C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		939B366F15758192005C258C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		939B367115758192005C258C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		939B367215758192005C258C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		939B367515758192005C258C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		939B365815758192005C258C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939B366015758192005C258C /* UIKit.framework in Frameworks */,
+				939B366215758192005C258C /* Foundation.framework in Frameworks */,
+				939B366415758192005C258C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		939B365015758192005C258C = {
+			isa = PBXGroup;
+			children = (
+				1F9C722C1580512200515297 /* Default@2x.png */,
+				1F9C722A1580511E00515297 /* Default.png */,
+				1F9C72281580511900515297 /* iPhoneIcon@2x.png */,
+				1F9C72251580511700515297 /* iPhoneIcon.png */,
+				939B366515758192005C258C /* ZeusForms */,
+				939B365E15758192005C258C /* Frameworks */,
+				939B365C15758192005C258C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		939B365C15758192005C258C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				939B365B15758192005C258C /* ZeusFormTemplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		939B365E15758192005C258C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				939B365F15758192005C258C /* UIKit.framework */,
+				939B366115758192005C258C /* Foundation.framework */,
+				939B366315758192005C258C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		939B366515758192005C258C /* ZeusForms */ = {
+			isa = PBXGroup;
+			children = (
+				939B366E15758192005C258C /* AppDelegate.h */,
+				939B366F15758192005C258C /* AppDelegate.m */,
+				939B367115758192005C258C /* ViewController.h */,
+				939B367215758192005C258C /* ViewController.m */,
+				939B367415758192005C258C /* ViewController.xib */,
+				939B366615758192005C258C /* Supporting Files */,
+			);
+			name = ZeusForms;
+			path = TextFieldsARC;
+			sourceTree = "<group>";
+		};
+		939B366615758192005C258C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				939B366715758192005C258C /* ZeusFormTemplate-Info.plist */,
+				939B366815758192005C258C /* InfoPlist.strings */,
+				939B366B15758192005C258C /* main.m */,
+				939B366D15758192005C258C /* ZeusFormTemplate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		939B365A15758192005C258C /* ZeusFormTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939B367915758192005C258C /* Build configuration list for PBXNativeTarget "ZeusFormTemplate" */;
+			buildPhases = (
+				939B365715758192005C258C /* Sources */,
+				939B365815758192005C258C /* Frameworks */,
+				939B365915758192005C258C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeusFormTemplate;
+			productName = TextFieldsARC;
+			productReference = 939B365B15758192005C258C /* ZeusFormTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		939B365215758192005C258C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Zeus Framework";
+			};
+			buildConfigurationList = 939B365515758192005C258C /* Build configuration list for PBXProject "ZeusFormTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 939B365015758192005C258C;
+			productRefGroup = 939B365C15758192005C258C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				939B365A15758192005C258C /* ZeusFormTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		939B365915758192005C258C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939B366A15758192005C258C /* InfoPlist.strings in Resources */,
+				939B367615758192005C258C /* ViewController.xib in Resources */,
+				1F9C72261580511700515297 /* iPhoneIcon.png in Resources */,
+				1F9C72291580511900515297 /* iPhoneIcon@2x.png in Resources */,
+				1F9C722B1580511E00515297 /* Default.png in Resources */,
+				1F9C722D1580512200515297 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		939B365715758192005C258C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939B366C15758192005C258C /* main.m in Sources */,
+				939B367015758192005C258C /* AppDelegate.m in Sources */,
+				939B367315758192005C258C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		939B366815758192005C258C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939B366915758192005C258C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		939B367415758192005C258C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939B367515758192005C258C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		939B367715758192005C258C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		939B367815758192005C258C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		939B367A15758192005C258C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextFieldsARC/ZeusFormTemplate-Prefix.pch";
+				INFOPLIST_FILE = "TextFieldsARC/ZeusFormTemplate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = ZeusFormTemplate;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		939B367B15758192005C258C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextFieldsARC/ZeusFormTemplate-Prefix.pch";
+				INFOPLIST_FILE = "TextFieldsARC/ZeusFormTemplate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = ZeusFormTemplate;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		939B365515758192005C258C /* Build configuration list for PBXProject "ZeusFormTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939B367715758192005C258C /* Debug */,
+				939B367815758192005C258C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939B367915758192005C258C /* Build configuration list for PBXNativeTarget "ZeusFormTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939B367A15758192005C258C /* Debug */,
+				939B367B15758192005C258C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 939B365215758192005C258C /* Project object */;
+}

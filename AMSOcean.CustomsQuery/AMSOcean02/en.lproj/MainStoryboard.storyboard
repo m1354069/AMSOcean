@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2840" systemVersion="12C54" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1926"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="LoginViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wM9-yk-h3o">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Login-Form.png" translatesAutoresizingMaskIntoConstraints="NO" id="be0-W1-1Me">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="RYT-ay-BHo"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Descarte_TransparentLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="8RT-vo-PT5">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="4LX-I9-EGz"/>
+                                    <constraint firstAttribute="width" constant="141" id="IZN-Bg-0l4"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FjJ-tG-t5e">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="9iF-KJ-5JE"/>
+                                    <constraint firstAttribute="width" constant="186" id="og2-Ir-9XH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <size key="titleShadowOffset" width="0.0" height="1"/>
+                                <state key="normal" title="Submit Login" backgroundImage="SleekLoginButton.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder=" Username" minimumFontSize="17" background="group-row-top.png" translatesAutoresizingMaskIntoConstraints="NO" id="Eco-7C-6lQ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="SxU-Re-EfU"/>
+                                    <constraint firstAttribute="width" constant="248" id="kfu-FG-iCP"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder=" Password" minimumFontSize="17" background="group-row-bottom.png" translatesAutoresizingMaskIntoConstraints="NO" id="0hb-YP-UhM">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="248" id="HPk-qG-7x5"/>
+                                    <constraint firstAttribute="height" constant="31" id="XRb-0S-Qeg"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.37647062539999998" green="0.40000003579999999" blue="0.43137258290000002" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="FjJ-tG-t5e" firstAttribute="top" secondItem="wM9-yk-h3o" secondAttribute="top" constant="230" id="34D-NI-hRf"/>
+                            <constraint firstAttribute="bottom" secondItem="be0-W1-1Me" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="7P8-Lg-VId"/>
+                            <constraint firstItem="0hb-YP-UhM" firstAttribute="top" secondItem="wM9-yk-h3o" secondAttribute="top" constant="166" id="EHr-po-dvS"/>
+                            <constraint firstItem="8RT-vo-PT5" firstAttribute="centerX" secondItem="wM9-yk-h3o" secondAttribute="centerX" type="default" id="HRL-pf-eDa"/>
+                            <constraint firstItem="0hb-YP-UhM" firstAttribute="centerX" secondItem="8RT-vo-PT5" secondAttribute="centerX" type="default" id="Lo0-Xu-RAZ"/>
+                            <constraint firstItem="8RT-vo-PT5" firstAttribute="top" secondItem="wM9-yk-h3o" secondAttribute="top" constant="101" id="Ytu-o1-0Zz"/>
+                            <constraint firstItem="FjJ-tG-t5e" firstAttribute="centerX" secondItem="0hb-YP-UhM" secondAttribute="centerX" type="default" id="beM-1x-mYP"/>
+                            <constraint firstItem="Eco-7C-6lQ" firstAttribute="top" secondItem="wM9-yk-h3o" secondAttribute="top" constant="137" id="drO-LL-aXW"/>
+                            <constraint firstItem="Eco-7C-6lQ" firstAttribute="leading" secondItem="wM9-yk-h3o" secondAttribute="leading" constant="37" id="fVC-Ah-eEv"/>
+                            <constraint firstItem="be0-W1-1Me" firstAttribute="top" secondItem="wM9-yk-h3o" secondAttribute="top" constant="20" symbolic="YES" type="default" id="ows-Du-Qog"/>
+                            <constraint firstItem="be0-W1-1Me" firstAttribute="centerX" secondItem="0hb-YP-UhM" secondAttribute="centerX" type="default" id="ujv-zJ-zBD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Descarte_TransparentLogo.png" width="211" height="26"/>
+        <image name="Login-Form.png" width="286" height="313"/>
+        <image name="SleekLoginButton.png" width="229" height="39"/>
+        <image name="group-row-bottom.png" width="229" height="34"/>
+        <image name="group-row-top.png" width="229" height="34"/>
+    </resources>
+    <classes>
+        <class className="LoginViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="submitButton:"/>
+                <relationship kind="outlet" name="loginView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="passwordField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="usernameField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
